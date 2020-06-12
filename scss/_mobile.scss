@@ -1,0 +1,195 @@
+@media (max-width: $mobile-width) {
+  .container {
+    padding: 0 1.3rem;
+  }
+
+  .section-content {
+    display: flex;
+    flex-direction: column-reverse;
+
+    .illustration {
+      width: 100%;
+    }
+  }
+
+  // Nav bar
+  #main-nav {
+    padding: 2rem 0;
+
+    .nav-logo {
+      height: 25px;
+    }
+
+    li {
+      padding: 0;
+      padding-left: 1rem;
+      font-size: 13px;
+    }
+  }
+
+  // Curve bg
+  .bg-curve {
+    height: 53px;
+    background: url("/dist/images/bg-curve-mobile.svg") no-repeat;
+  }
+
+  #section {
+    // Section a
+    &-a {
+      margin-bottom: 2.5rem;
+
+      .text-content {
+        padding: 2rem 1rem;
+
+        h1 {
+          width: 100%;
+          font-size: 24px;
+          line-height: 40px;
+          text-align: center;
+        }
+        p {
+          width: 100%;
+          font-size: 14px;
+          line-height: 22px;
+          padding: 1rem 0 2rem 0;
+          text-align: center;
+        }
+
+        input {
+          width: 100%;
+          margin-bottom: 1rem;
+        }
+
+        .btn {
+          width: 100%;
+        }
+      }
+    }
+
+    // Section b
+    &-b {
+      .section-content {
+        padding: 42px 0;
+      }
+
+      .text-content {
+        padding: 100px 0 0 0;
+
+        h1 {
+          width: 100%;
+          font-size: 17px;
+          text-align: center;
+          line-height: 2rem;
+        }
+
+        p {
+          width: 100%;
+          font-size: 14px;
+        }
+
+        .redirect-link {
+          font-size: 13px;
+          margin: 45px auto;
+          padding-top: 0;
+        }
+
+        .testimonial {
+          width: 85%;
+          margin: auto;
+
+          .testimonial-content {
+            padding: 1rem 1rem 1rem 1.5rem;
+
+            > p {
+              width: auto;
+              font-size: 11px;
+              line-height: 1.2rem;
+            }
+
+            .test-people {
+              > img {
+                width: 1.6rem;
+              }
+
+              .test-title {
+                > p {
+                  font-size: 10px;
+                }
+
+                span {
+                  font-size: 8px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    // Section c
+    &-c {
+      .section-content {
+        flex-direction: column;
+      }
+
+      .text-content {
+        padding: 4rem 1rem 1.5rem 1rem;
+
+        h3 {
+          font-size: 18px;
+          text-align: center;
+        }
+
+        p {
+          width: auto;
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+
+      form {
+        padding-left: 0;
+        padding-bottom: 80px;
+
+        input[type="email"] {
+          height: 35px;
+
+          &::placeholder {
+            font-size: 11px;
+          }
+        }
+
+        .btn {
+          width: 250px;
+          height: 35px;
+          font-size: 11px;
+        }
+      }
+    }
+  }
+
+  // Footer
+  footer {
+    padding: 80px 32px;
+  }
+
+  .footer-logo {
+    height: 3.5rem;
+    padding-bottom: 20px;
+  }
+
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+
+    .footer-list-1,
+    .footer-list-2,
+    .social {
+      margin: 3rem 0 0 0;
+    }
+
+    .social {
+      text-align: center;
+    }
+  }
+}

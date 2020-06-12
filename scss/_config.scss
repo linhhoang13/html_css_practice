@@ -1,0 +1,19 @@
+// Layouts
+$desktop-width: 1440px;
+$mobile-width: 375px;
+
+// Illustrations
+$illustration1: url("../dist/images/illustration-1.svg");
+$illustration2: url("../dist/images/illustration-2.svg");
+
+// Colors
+$primary-color-1: hsl(243, 87%, 12%);
+$primary-color-2: hsl(238, 22%, 44%);
+$accent-color-1: hsl(224, 93%, 58%);
+$accent-color-2: hsl(170, 45%, 43%);
+$neutral-color-1: hsl(240, 75%, 98%);
+$neutral-color-2: hsl(0, 0%, 75%);
+
+// Font-family
+$font1: "Raleway", sans-serif; // Headings, Call-to-actions, Header Navigation
+$font2: "Open Sans", sans-serif; // Body
